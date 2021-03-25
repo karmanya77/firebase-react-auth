@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es2015",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": ["es6", "dom"],
+    "skipLibCheck": true
+  },
+  "include": ["src", "globals.d.ts"]
+}
