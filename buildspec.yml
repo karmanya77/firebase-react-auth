@@ -1,4 +1,4 @@
-version 0.2
+version: '0.2'
 
 phases:
   install:
@@ -20,9 +20,9 @@ phases:
     commands:
       - echo Builing...
       - yarn build
-    
-artifacts :
+
+artifacts:
   files:
-    - "**/*"
+    - '**/*'
   discard-paths: no
   base-directory: dist
