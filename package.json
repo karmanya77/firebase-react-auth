@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://karmanya77.github.io/firebase-react-auth",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve --mode development",
@@ -41,6 +42,7 @@
   "devDependencies": {
     "@teamsupercell/typings-for-css-modules-loader": "^2.4.0",
     "@types/react-router-dom": "^5.1.7",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^5.2.0",
     "typescript": "^4.2.3",
     "webpack-dev-server": "^3.11.2"
